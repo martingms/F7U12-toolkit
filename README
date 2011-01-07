@@ -1,0 +1,19 @@
+This tiny little extension adds a few features to the f7u12 subreddit on reddit.com.
+Right now, in its first iteration, it both shows the alt-text of the rage faces in the comments (e.g. the attached screen shots),
+and gives you a button to press, "Pick a face!", that gives you a menu of faces to choose between and use in your comments.
+After clicking, the code for using that particular face is automatically added to your comment.
+
+This was thrown together in under an hour, and thusly looks very bad and probably has a few bugs.
+If you like this extension and have ideas/found any bugs, please contact me!
+I'll be adding faces as soon as they are added by moderators.
+
+PS: This was the first thing I ever wrote in JS and badly commented because I wrote it in a hurry.
+Added here because someone on reddit wanted the source :)
+
+== Changelog ==
+
+= version 0.2 =
+* Added rounded corners
+* Made the "Pick a face!" button a <button> and not an <a>
+* Put the "Pick a face!" button a more aesthetically pleasing place
+* Sorted the faces a bit

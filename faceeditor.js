@@ -1,6 +1,5 @@
 /*
- *      Rage face editor by hucker
- *      
+ *      Rage face editor by martingamm   
  *
  */
 
