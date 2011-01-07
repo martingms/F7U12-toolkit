@@ -1,0 +1,20 @@
+{
+  "name": "F7U12 toolkit",
+  "version": "0.2",
+  "description": "Different tools for the F7U12 subreddit.",
+  "permissions": [
+    "http://www.reddit.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [ "http://www.reddit.com/r/fffffffuuuuuuuuuuuu/*" ],
+      "js": [ "jquery.min.js", "showtext.js", "injector.js" ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": 
+    { 
+      "48": "icon48.png",
+      "128": "icon128.png" 
+    }
+}
