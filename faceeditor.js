@@ -4,16 +4,15 @@
  */
 
 var injecthtml = '<a href="/xxx" onclick="addFace($(this),\'xxx\');return false;"></a>';
-//TODO sort these so that the most used are shown first etc..!
 var codes = ['troll','fu','lol','poker','ok','wetodddog','sadtroll','high','son',
-			 'fy1','yey','uhm','happy','beh','gah','perfect','wat','ewbte','pft','futext',
-			 'megusta','dude','rtroll','rmilk','milk','pickletime','jasonqualman','ewbtetext',
-			 'pfttext','harpdarp','gwah','ghappy','gohno','gfu','gsmile','gbeh','gwat','guhm',
-			 'gyey','gtongue','vuvu','red','notsure','blackhair','omg','eyes','awman','straight',
-			 'pissed','hmm','whoa','hehheh','bepinthemorning','welp','melvin','itstime',
-			 'aintthatsomeshit','cereal','ohcrap','gtroll','notokay','fap','nomegusta','awyeah',
-			 'surprised','why','yuno','bepistrollingyoubetter','trolldad','okay','dumbbitch','wtf',
-			 'teethrage','megustaperfect','foreveralone'];
+             'fy1','yey','uhm','happy','beh','gah','perfect','wat','ewbte','pft','futext',
+             'megusta','dude','rtroll','rmilk','milk','pickletime','jasonqualman','ewbtetext',
+             'pfttext','harpdarp','gwah','ghappy','gohno','gfu','gsmile','gbeh','gwat','guhm',
+             'gyey','gtongue','vuvu','red','notsure','blackhair','omg','eyes','awman','straight',
+             'pissed','hmm','whoa','hehheh','bepinthemorning','welp','melvin','itstime',
+             'aintthatsomeshit','cereal','ohcrap','gtroll','notokay','fap','nomegusta','awyeah',
+             'surprised','why','yuno','bepistrollingyoubetter','trolldad','okay','dumbbitch','wtf',
+             'teethrage','megustaperfect','foreveralone','schlick','ilovethebeefytaco'];
 
 function injectFaceEditor()
 {

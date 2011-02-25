@@ -1,6 +1,6 @@
 {
   "name": "F7U12 toolkit",
-  "version": "0.2",
+  "version": "0.2.1",
   "description": "Different tools for the F7U12 subreddit.",
   "permissions": [
     "http://www.reddit.com/"
@@ -12,8 +12,8 @@
       "run_at": "document_idle"
     }
   ],
-  "icons": 
-    { 
+  "icons":
+    {
       "48": "icon48.png",
       "128": "icon128.png" 
     }
