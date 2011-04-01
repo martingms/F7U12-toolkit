@@ -12,7 +12,8 @@ var codes = ['troll','fu','lol','poker','ok','wetodddog','sadtroll','high','son'
              'pissed','hmm','whoa','hehheh','bepinthemorning','welp','melvin','itstime',
              'aintthatsomeshit','cereal','ohcrap','gtroll','notokay','fap','nomegusta','awyeah',
              'surprised','why','yuno','bepistrollingyoubetter','trolldad','okay','dumbbitch','wtf',
-             'teethrage','megustaperfect','foreveralone','schlick','ilovethebeefytaco'];
+             'teethrage','megustaperfect','foreveralone','schlick','ilovethebeefytaco', '21424',
+             'HAHAHAHAHA', 'ohisthatacarrot'];
 
 function injectFaceEditor()
 {
