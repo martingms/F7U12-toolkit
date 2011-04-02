@@ -15,29 +15,25 @@ var codes = ['troll','fu','lol','poker','ok','wetodddog','sadtroll','high','son'
              'teethrage','megustaperfect','foreveralone','schlick','ilovethebeefytaco', '21424',
              'HAHAHAHAHA', 'ohisthatacarrot'];
 
-function injectFaceEditor()
-{
+function injectFaceEditor() {
     var textforms = $("form[class='usertext cloneable']");
     var buttons = $(".usertext-buttons");
     buttons.append('<button type="button" id="facebutton" onclick="$(this).parent().parent().parent().next(\'.ragefaces\').slideToggle()"><b>Pick a face!</b></button>');
     textforms.append('<div class="ragefaces">');
     var ragefaces = $("div[class='ragefaces']");
-    for(var i=0;i<codes.length;i++)
-    {
+    for(var i=0;i<codes.length;i++) {
         ragefaces.append(injecthtml.replace(/xxx/g,codes[i]));
     }
 
 }
 
 //TODO optimize selector 
-function addFace(anchor,code)
-{
+function addFace(anchor,code) {
     var selectedForm = anchor.parent().parent().children("div").children(id="").find("textarea")[0];
-    selectedForm.value += "[](/"+code+" \"Alt-text\")";
+    selectedForm.value += "[](/"+code+" \"\")";
 }
 
-function stylizer()
-{
+function stylizer() {
     var ragefaces = $("div[class='ragefaces']");
     ragefaces.css("display","block");
     ragefaces.css("border","1px solid grey");
