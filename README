@@ -1,16 +1,22 @@
-This tiny little extension adds a few features to the f7u12 subreddit on reddit.com.
-Right now, in its first iteration, it both shows the alt-text of the rage faces in the comments (e.g. the attached screen shots),
-and gives you a button to press, "Pick a face!", that gives you a menu of faces to choose between and use in your comments.
-After clicking, the code for using that particular face is automatically added to your comment.
+This tiny little extension adds a few features to the f7u12 subreddit on reddit.com. Right now, in its first iteration, it both shows the alt-text of the rage faces in the comments (e.g. the attached screen shots), and gives you a button to press, "Pick a face!", that gives you a menu of faces to choose between and use in your comments. After clicking, the code for using that particular face is automatically added to your comment.
 
-This was thrown together in under an hour, and thusly looks very bad and probably has a few bugs.
-If you like this extension and have ideas/found any bugs, please contact me!
-I'll be adding faces as soon as they are added by moderators.
+This was thrown together in under an hour, and thusly looks very bad and probably has a few bugs. If you like this extension and have ideas/found any bugs, please contact me! I'll be adding faces as soon as they are added by moderators.
 
-PS: This was the first thing I ever wrote in JS and badly commented because I wrote it in a hurry.
-Added here because someone on reddit wanted the source :)
+Reddit thread can be found here: http://www.reddit.com/r/fffffffuuuuuuuuuuuu/comments/ex63h/f7u12_toolkit_for_chrome/
+The source can be found here: https://github.com/martingamm/F7U12-toolkit
 
 == Changelog ==
+
+= version 0.2.3 =
+* By popular demand, the alt-text now shows up AFTER the faces.
+* Alt-text color changed to grey so as not to be confused with links
+
+= version 0.2.2 =
+* Added /21424 (rihanna), /HAHAHAHAHA (waffle) and /ohisthatacarrot (carrot)
+In next version there will be an option panel and the show alt text will be much better (mainly it will be AFTER the faces, as many has requested), I promise!
+
+= version 0.2.1 =
+* Added the /schlick and /ilovebeefytaco faces to the face picker
 
 = version 0.2 =
 * Added rounded corners
