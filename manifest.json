@@ -1,6 +1,6 @@
 {
   "name": "F7U12 toolkit",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Different tools for the F7U12 subreddit.",
   "permissions": [
     "http://www.reddit.com/"

@@ -13,7 +13,9 @@ var codes = ['troll','fu','lol','poker','ok','wetodddog','sadtroll','high','son'
              'aintthatsomeshit','cereal','ohcrap','gtroll','notokay','fap','nomegusta','awyeah',
              'surprised','why','yuno','bepistrollingyoubetter','trolldad','okay','dumbbitch','wtf',
              'teethrage','megustaperfect','foreveralone','schlick','ilovethebeefytaco', '21424',
-             'HAHAHAHAHA', 'ohisthatacarrot'];
+             'HAHAHAHAHA', 'ohisthatacarrot', 'jackieeeee!', 'foreveralonelaugh', '2229',
+             'sweetjesus', 'smokeweedeveryday', 'warning', 'stare', 'challengeaccepted', 'wayevil',
+             'fumanchu'];
 
 function injectFaceEditor() {
     var textforms = $("form[class='usertext cloneable']");
